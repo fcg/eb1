@@ -1,7 +1,7 @@
 html {
-    /* The nav header is 3.5945rem high, plus 20px for the margin-top of the
+    /* The nav header is 3.5rem high, plus 20px for the margin-top of the
        main container. */
-    scroll-padding-top: calc(3.5945rem + 20px);
+    scroll-padding-top: calc(3.5rem + 20px);
 }
 
 body > .container {
@@ -22,8 +22,8 @@ body > .container {
 }
 
 pre, code {
-    background: #e9ecef;
-    color: #000;
+    background: #555;
+    color: #bababa;
     border: 1px solid rgba(0,0,0,0.125);
     border-radius: 0.25rem;
 }
@@ -44,11 +44,11 @@ pre code {
 }
 
 a code {
-    color: #4582EC;
+    color: #2a9fd6;
 }
 
 a:hover code {
-    color: #1559cf;
+    color: #1d7097;
 }
 
 kbd {
@@ -69,15 +69,16 @@ footer {
 }
 
 .modal-dialog {
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 /* Style the admonitions. */
 
 .admonition {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
+    background-color: #282828;
 }
 
 .admonition > .admonition-title {
@@ -86,8 +87,7 @@ footer {
     background: rgba(0, 0, 0, 0.03);
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
-    font-size: 1.2rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
 }
 
 .admonition > * {
@@ -107,30 +107,30 @@ footer {
 /* Style each kind of admonition. */
 
 .admonition.note, .admonition.note > .admonition-title {
-    border-color: #148ea1;
+    border-color: #6e2caf;
 }
 
 .admonition.note > .admonition-title {
-    background: #17a2b8;
     color: #fff;
+    background-color: #9933cc;
 }
 
 .admonition.warning, .admonition.warning > .admonition-title {
-    border-color: #f39c12;
+    border-color: #f05800;
 }
 
 .admonition.warning > .admonition-title {
-    background: #f39c12;
     color: #fff;
+    background-color: #ff8800;
 }
 
 .admonition.danger, .admonition.danger > .admonition-title {
-    border-color: #e74c3c;
+    border-color: #bd001f;
 }
 
 .admonition.danger > .admonition-title {
-    background: #e74c3c;
     color: #fff;
+    background-color: #cc0000;
 }
 
 /*
@@ -143,17 +143,13 @@ footer {
 .bs-sidebar.affix {
     position: -webkit-sticky;
     position: sticky;
-    /* The nav header is 3.5945rem high, plus 20px for the margin-top of the
+    /* The nav header is 3.5rem high, plus 20px for the margin-top of the
        main container. */
-    top: calc(3.5945rem + 20px);
+    top: calc(3.5rem + 20px);
 }
 
 .bs-sidebar.card {
     padding: 0;
-}
-
-.bs-sidebar > .card {
-    background-color: #e9ecef !important;
 }
 
 /* Toggle (vertically flip) sidebar collapse icon */
@@ -224,13 +220,13 @@ h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .head
 @media (max-width: 991.98px) {
     .navbar-collapse.show {
         overflow-y: auto;
-        max-height: calc(100vh - 3.5945rem);
+        max-height: calc(100vh - 3.5rem);
     }
 }
 
 .dropdown-item.open {
-    color: #16181b;
-    background-color: #f8f9fa;
+    color: #fff;
+    background-color: #2A9FD6;
 }
 
 .dropdown-submenu > .dropdown-menu {
@@ -248,19 +244,19 @@ h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .head
     border-color: transparent;
     border-style: solid;
     border-width: 5px 0 5px 5px;
-    border-left-color: #ccc;
+    border-left-color: #999999;
     margin-top: 5px;
     margin-right: -10px;
 }
 
 .dropdown-submenu:hover > a::after {
-    border-left-color: #404040;
+    border-left-color: #fff;
 }
 
 @media (min-width: 992px) {
     .dropdown-menu {
         overflow-y: auto;
-        max-height: calc(100vh - 3.5945rem);
+        max-height: calc(100vh - 3.5rem);
     }
 
     .dropdown-submenu {
