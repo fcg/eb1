@@ -22,9 +22,9 @@ body > .container {
 }
 
 pre, code {
-    background: #e9ecef;
-    color: #333;
-    border: 1px solid rgba(0,0,0,0.125);
+    background: #073642;
+    color: #839496;
+    border: 1px solid rgba(0,43,54,0.95);
     border-radius: 0.25rem;
 }
 
@@ -44,11 +44,7 @@ pre code {
 }
 
 a code {
-    color: #2fa4e7;
-}
-
-a:hover code {
-    color: #157ab5;
+    color: #2aa198;
 }
 
 kbd {
@@ -76,15 +72,16 @@ footer {
 
 .admonition {
     margin-bottom: 1rem;
-    border: 1px solid rgba(0,0,0,0.125);
+    border: 1px solid rgba(0,43,54,0.95);
     border-radius: 0.25rem;
+    color: #fff;
 }
 
 .admonition > .admonition-title {
     margin: 0;
     padding: 0.75rem 1rem;
-    background: rgba(0,0,0,0.03);
-    border-bottom: 1px solid rgba(0,0,0,0.125);
+    background: #444;
+    border-bottom: 1px solid rgba(0,43,54,0.95);
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
     font-size: 1rem;
 }
@@ -105,19 +102,28 @@ footer {
 
 /* Style each kind of admonition. */
 
+.admonition.note, .admonition.note > .admonition-title {
+    border-color: #268bd2;
+}
+
 .admonition.note > .admonition-title {
-    background: #033c73;
-    color: #fff;
+    background: #268bd2;
+}
+
+.admonition.warning, .admonition.warning > .admonition-title {
+    border-color: #cb4b16;
 }
 
 .admonition.warning > .admonition-title {
-    background: #dd5600;
-    color: #fff;
+    background: #cb4b16;
+}
+
+.admonition.danger, .admonition.danger > .admonition-title {
+    border-color: #d33682;
 }
 
 .admonition.danger > .admonition-title {
-    background: #c71c22;
-    color: #fff;
+    background: #d33682;
 }
 
 /*
@@ -137,6 +143,10 @@ footer {
 
 .bs-sidebar.card {
     padding: 0;
+}
+
+.bs-sidebar > .card {
+    background: #073642 !important;
 }
 
 /* Toggle (vertically flip) sidebar collapse icon */
@@ -212,8 +222,10 @@ h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .head
 }
 
 .dropdown-item.open {
-    color: #fff;
-    background-color: #2FA4E7;
+    color: rgba(255,255,255,0.75);
+    background: #002B36 -webkit-gradient(linear, left top, left bottom,
+                                         from(#002b36), to(#002B36)) repeat-x;
+    background: #002B36 linear-gradient(180deg, #002b36, #002B36) repeat-x;
 }
 
 .dropdown-submenu > .dropdown-menu {
