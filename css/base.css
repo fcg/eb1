@@ -44,11 +44,11 @@ pre code {
 }
 
 a code {
-    color: #dd4814;
+    color: #2fa4e7;
 }
 
 a:hover code {
-    color: #97310e;
+    color: #157ab5;
 }
 
 kbd {
@@ -105,31 +105,19 @@ footer {
 
 /* Style each kind of admonition. */
 
-.admonition.note, .admonition.note > .admonition-title {
-    border-color: #bee5eb;
-}
-
 .admonition.note > .admonition-title {
-    background: #d1ecf1;
-    color: #0c5460;
-}
-
-.admonition.warning, .admonition.warning > .admonition-title {
-    border-color: #fbebc9;
+    background: #033c73;
+    color: #fff;
 }
 
 .admonition.warning > .admonition-title {
-    background: #fcf1d8;
-    color: #7c5f20;
-}
-
-.admonition.danger, .admonition.danger > .admonition-title {
-    border-color: #f6c7c4;
+    background: #dd5600;
+    color: #fff;
 }
 
 .admonition.danger > .admonition-title {
-    background: #f9d7d5;
-    color: #741d17;
+    background: #c71c22;
+    color: #fff;
 }
 
 /*
@@ -149,10 +137,6 @@ footer {
 
 .bs-sidebar.card {
     padding: 0;
-}
-
-.bs-sidebar > .card {
-    background-color: #e9ecef !important;
 }
 
 /* Toggle (vertically flip) sidebar collapse icon */
@@ -228,8 +212,8 @@ h1:hover .headerlink, h2:hover .headerlink, h3:hover .headerlink, h4:hover .head
 }
 
 .dropdown-item.open {
-    color: #16181b;
-    background-color: #f8f9fa;
+    color: #fff;
+    background-color: #2FA4E7;
 }
 
 .dropdown-submenu > .dropdown-menu {
