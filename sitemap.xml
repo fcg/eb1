@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://eb1.flyabroad.com.hk/aljd/</loc>
+         <lastmod>2022-01-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://eb1.flyabroad.com.hk/eb1a/cgal/</loc>
          <lastmod>2022-01-25</lastmod>
          <changefreq>daily</changefreq>
@@ -72,6 +77,21 @@
     </url>
     <url>
          <loc>https://eb1.flyabroad.com.hk/eb1a/sdbz/zyzw/</loc>
+         <lastmod>2022-01-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eb1.flyabroad.com.hk/faq/</loc>
+         <lastmod>2022-01-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eb1.flyabroad.com.hk/lxwm/</loc>
+         <lastmod>2022-01-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eb1.flyabroad.com.hk/news/</loc>
          <lastmod>2022-01-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
